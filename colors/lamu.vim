@@ -2,7 +2,7 @@
 " Description: The Lamù colorscheme.
 " Author: Greta Renzi <greta@lamu.ai>
 " Source: https://github.com/lamu-ai/lamu.vim
-" Last Modified: 2021-06-23
+" Last Modified: 2021-06-24
 "
 "                                               //////////////////,.........................*//////////*,////............,//////////////.    
 "                                        .///////////,///////////*.............................*/////////////...............///////////////  
@@ -128,7 +128,7 @@ exec "hi! VertSplit guibg=NONE guifg=".s:fg[0]." ctermbg=NONE ctermfg=".s:fg[1]
 exec "hi Folded guibg=".s:black[0]." guifg=".s:fg[0]." ctermbg=".s:black[1]." ctermfg=".s:fg[1]
 exec "hi! link FoldColumn Folded"
 exec "hi SignColumn guibg=NONE guifg=NONE ctermbg=NONE ctermfg=NONE"
-exec "hi IncSearch gui=NONE guibg=".s:purple[0]." guifg=".s:fg[0]." cterm=NONE ctermbg=".s:purple[1]." ctermfg=".s:fg[1]
+exec "hi IncSearch gui=NONE guibg=".s:magenta[0]." guifg=".s:fg[0]." cterm=NONE ctermbg=".s:magenta[1]." ctermfg=".s:fg[1]
 exec "hi link Substitute IncSearch"
 exec "hi LineNr guibg=NONE guifg=".s:purple_bright[0]." ctermbg=NONE ctermfg=".s:purple_bright[1]
 exec "hi CursorLineNr gui=reverse guibg=NONE guifg=".s:purple_bright[0]." cterm=reverse ctermbg=NONE ctermfg=".s:purple_bright[1]
@@ -144,7 +144,7 @@ exec "hi PmenuSel guibg=".s:black[0]." guifg=".s:purple_bright[0]." ctermbg=".s:
 exec "hi PmenuSbar guibg=".s:black_bright[0]." guifg=NONE ctermbg=".s:black_bright[1]." ctermfg=NONE"
 exec "hi PmenuThumb guibg=".s:purple[0]." guifg=NONE ctermbg=".s:purple[1]." ctermfg=NONE"
 exec "hi! link Question MsgArea"
-exec "hi Search guibg=".s:purple[0]." guifg=".s:bg[0]." ctermbg=".s:purple[1]." ctermfg=".s:bg[1]
+exec "hi Search guibg=".s:purple[0]." guifg=".s:fg[0]." ctermbg=".s:purple[1]." ctermfg=".s:fg[1]
 exec "hi SpellBad gui=undercurl guibg=NONE guifg=NONE guisp=".s:yellow_bright[0]." cterm=undercurl ctermbg=NONE ctermfg=".s:yellow_bright[1]
 exec "hi! link SpellCap SpellBad"
 exec "hi! link SpellLocal SpellBad"
