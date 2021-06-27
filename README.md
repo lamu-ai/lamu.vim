@@ -1,4 +1,4 @@
-# lamu.vim
+# :paintbrush: lamu.vim
 
 A Vim/Neovim colorscheme made for my [Lamù theme](https://github.com/lamu-ai/dotfiles/tree/main/lamu).
 
